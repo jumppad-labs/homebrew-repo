@@ -4,23 +4,23 @@
 class Jumppad < Formula
   desc ""
   homepage "https://jumppad.dev/"
-  version "0.5.33"
+  version "0.5.34"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.33/jumppad_0.5.33_darwin_x86_64.zip"
-    sha256 "562e9c9d5e24ed24c31bb080163419aa259f846dd1cd853cdb1ff5df7ce10958"
+    url "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.34/jumppad_0.5.34_darwin_x86_64.zip"
+    sha256 "e6fbecfc953f2805d167d7311ea4cfb87627fdf555241ae5694f29811f490ce6"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.33/jumppad_0.5.33_darwin_arm64.zip"
+    url "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.34/jumppad_0.5.34_darwin_arm64.zip"
     sha256 ""
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.33/jumppad_0.5.33_linux_x86_64.tar.gz"
-    sha256 "d0ec036a99bd63edf967212016ac47bd982ac7da3a82358292d059f8fd5bdc78"
+    url "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.34/jumppad_0.5.34_linux_x86_64.tar.gz"
+    sha256 "d604346b33e8c0fe1b3cf1ac847ac0350e947ad5b42c060c26b719dd45614f5c"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.33/jumppad_0.5.33_linux_arm64.tar.gz"
-    sha256 "9dcd096f413e7feba4496815270b09c97dc30912bdd62802a980b248fa109703"
+    url "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.34/jumppad_0.5.34_linux_arm64.tar.gz"
+    sha256 "7b06a657bc2cc90f60e631b1bb3759efdcc2b8050097121d2c4c30916a1e8e52"
   end
 
   def install
