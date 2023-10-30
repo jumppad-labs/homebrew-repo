@@ -1,9 +1,9 @@
-# Homebrew tap for Shipyard
+# Homebrew tap for Jumppad
 
-This repository contains a Homebrew (https://brew.sh) tap for [Shipyard](https://shipyard.run).
+This repository contains a Homebrew (https://brew.sh) tap for [Jumppad](https://jumppad.dev).
 
 ## Installing
 
 ```
-brew install shipyard-run/homebrew-repo/shipyard
+brew install jumppad-labs/homebrew-repo/jumppad
 ```
