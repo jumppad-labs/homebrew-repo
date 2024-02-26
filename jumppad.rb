@@ -18,13 +18,13 @@ class Jumppad < Formula
   end
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jumppad-labs/jumppad/releases/download/0.7.0/jumppad_0.7.0_linux_x86_64.zip"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5  /jumppad"
+    url "https://github.com/jumppad-labs/jumppad/releases/download/0.7.0/jumppad_0.7.0_linux_x86_64.tar.gz"
+    sha256 "b64245d77f615eb75f5a19b3d6ee06641a18ec66a63afad2ab2ff9662fd642c5  /jumppad"
   end
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/jumppad-labs/jumppad/releases/download/0.7.0/jumppad_0.7.0_linux_arm64.zip"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    url "https://github.com/jumppad-labs/jumppad/releases/download/0.7.0/jumppad_0.7.0_linux_arm64.tar.gz"
+    sha256 "4e73bbbedf65068a16b8167c1a82a1d5f1967e2289acb27ea292438dbea04597"
   end
 
   def install
