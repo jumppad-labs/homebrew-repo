@@ -5,26 +5,26 @@
 class Jumppad < Formula
   desc ""
   homepage "https://jumppad.dev"
-  version "0.1.0"
+  version "0.2.0"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/jumppad-labs/spektacular/releases/download/0.1.0/spektacular_0.1.0_darwin_x86_64.zip"
-    sha256 "30f562ce55a7c6c926548d023e38dafae2463058932630940ca3700d131161a6"
+    url "https://github.com/jumppad-labs/spektacular/releases/download/0.2.0/spektacular_0.2.0_darwin_x86_64.zip"
+    sha256 "0a34aa8ab81beec0086a4d4582186b60b60c59e19b239bceb1f779976e6ed178"
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/jumppad-labs/spektacular/releases/download/0.1.0/spektacular_0.1.0_darwin_arm64.zip"
-    sha256 "aedf05075a539bbd88ff4346cc721e39a7d746fb5be404857a7a52004aad5f4b"
+    url "https://github.com/jumppad-labs/spektacular/releases/download/0.2.0/spektacular_0.2.0_darwin_arm64.zip"
+    sha256 "2f22dddf3a23dfd87746561e50f3bf86be41c62c3a79acf8f9ab102b474d2f56"
   end
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jumppad-labs/spektacular/releases/download/0.1.0/spektacular_0.1.0_linux_x86_64.tar.gz"
-    sha256 "35215e69df6b8af1bdc225f18a7cff0e0fe0f874af265c2b2c2af01b137c46ba"
+    url "https://github.com/jumppad-labs/spektacular/releases/download/0.2.0/spektacular_0.2.0_linux_x86_64.tar.gz"
+    sha256 "e4445d512d84d3ab7ab556278a0a2d643167c7ca186c4482b7d6ecce6da05fc0"
   end
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/jumppad-labs/spektacular/releases/download/0.1.0/spektacular_0.1.0_linux_arm64.tar.gz"
-    sha256 "81a898362909fb3e45af27564ab5bf21372db8cad3074e26d944b9e8ff15f7c0"
+    url "https://github.com/jumppad-labs/spektacular/releases/download/0.2.0/spektacular_0.2.0_linux_arm64.tar.gz"
+    sha256 "5b4575a8187582373b6d72a98b26fcd3607ee8a99cfdb88f3d768202b21866bb"
   end
 
   def install
