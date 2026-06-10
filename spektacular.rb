@@ -2,7 +2,7 @@
 # typed: false
 # frozen_string_literal: true
 
-class Jumppad < Formula
+class Spektacular < Formula
   desc ""
   homepage "https://jumppad.dev"
   version "0.8.0"
