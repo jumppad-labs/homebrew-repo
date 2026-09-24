@@ -4,27 +4,27 @@
 
 class Spektacular < Formula
   desc ""
-  homepage "https://jumppad.dev"
-  version "0.21.0"
+  homepage "https://hivecommons.dev"
+  version "0.22.0"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/hivecommons/spektacular/releases/download/0.21.0/spektacular_0.21.0_darwin_x86_64.zip"
-    sha256 "d7b8c5749f4a3ca1ec69f0fd7cf9671dfd0b1c9cbdf637c24061f38e2b6d23ca"
+    url "https://github.com/hivecommons/spektacular/releases/download/0.22.0/spektacular_0.22.0_darwin_x86_64.zip"
+    sha256 "d51e3705ed8a205cc652265a4d0f5ab0c0799a82dd90ba4e7cc7af298ec468c6"
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/hivecommons/spektacular/releases/download/0.21.0/spektacular_0.21.0_darwin_arm64.zip"
-    sha256 "91c9fda12d217b6565eace656f054a8122f3cbdc27648d9080b7b95e4f6051f6"
+    url "https://github.com/hivecommons/spektacular/releases/download/0.22.0/spektacular_0.22.0_darwin_arm64.zip"
+    sha256 "81b5c5134c58b907d27670bc2de3f491b2a2cd999c469efcc6ce7130012538dd"
   end
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/hivecommons/spektacular/releases/download/0.21.0/spektacular_0.21.0_linux_x86_64.tar.gz"
-    sha256 "6a2fe0d4e363ad2e8f85632d34a7d0902718d11f3ab74fbd3978b3a7377d7a33"
+    url "https://github.com/hivecommons/spektacular/releases/download/0.22.0/spektacular_0.22.0_linux_x86_64.tar.gz"
+    sha256 "b244e9f3eae24763ca83d75e642c67aae6b62282c419ca94431a24ffbee65732"
   end
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/hivecommons/spektacular/releases/download/0.21.0/spektacular_0.21.0_linux_arm64.tar.gz"
-    sha256 "3275ee82761945cf245c23e7083ffde9c1b72bd235b200a39fdb1630a878882b"
+    url "https://github.com/hivecommons/spektacular/releases/download/0.22.0/spektacular_0.22.0_linux_arm64.tar.gz"
+    sha256 "31b5d6816092f7ba86336efa55207aa3a03b367ea699e75594392505c9da6420"
   end
 
   def install
