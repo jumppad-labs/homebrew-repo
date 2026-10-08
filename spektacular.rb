@@ -5,26 +5,26 @@
 class Spektacular < Formula
   desc ""
   homepage "https://hivecommons.dev"
-  version "0.26.0"
+  version "0.27.0"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/hivecommons/spektacular/releases/download/0.26.0/spektacular_0.26.0_darwin_x86_64.zip"
-    sha256 "9a5c4d4bfa7687b1881a06a594598bf5d3e16bc6fdf70ba7a3380a9cb2bbe0ab"
+    url "https://github.com/hivecommons/spektacular/releases/download/0.27.0/spektacular_0.27.0_darwin_x86_64.zip"
+    sha256 "bd2f9925205cf5d55fae8cf1984e3f7ef482d05ab1cea251b3f654db83c5b5b0"
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/hivecommons/spektacular/releases/download/0.26.0/spektacular_0.26.0_darwin_arm64.zip"
-    sha256 "a041b14b058e2d41793a08d0a5bdaabeb6a1eae842ad91c5c132fa39de3d642a"
+    url "https://github.com/hivecommons/spektacular/releases/download/0.27.0/spektacular_0.27.0_darwin_arm64.zip"
+    sha256 "9eff691f5370832495c405d59ade140166d00a9b2f2dbd84dc9134b65246088c"
   end
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/hivecommons/spektacular/releases/download/0.26.0/spektacular_0.26.0_linux_x86_64.tar.gz"
-    sha256 "afd394cf3d176655e62bbba322fc5fcaf53b713ebec9bd541b15368851eb73e1"
+    url "https://github.com/hivecommons/spektacular/releases/download/0.27.0/spektacular_0.27.0_linux_x86_64.tar.gz"
+    sha256 "184180078fe08dc9995bc3d5f5f7a428d9d4cf11cb8f9b4367d71fe40cd4fe80"
   end
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/hivecommons/spektacular/releases/download/0.26.0/spektacular_0.26.0_linux_arm64.tar.gz"
-    sha256 "7b3038718c01c10649efe1ee6ba0a1d883ec2c4f36986d14efadce79f2047f61"
+    url "https://github.com/hivecommons/spektacular/releases/download/0.27.0/spektacular_0.27.0_linux_arm64.tar.gz"
+    sha256 "10a063b9cb9f0ce575418bac8f5b5c08086ba34d63f0d357d6e5747d4dcabcf1"
   end
 
   def install
